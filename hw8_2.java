@@ -9,6 +9,7 @@ public class hw8_2 {
                 m[i][j] = input.nextDouble();//读取输入的数
             }
         }
+        input.close();
         double summ = sumMajorDiagonal(m);
         System.out.println("矩阵主对角线的元素和为：" + summ);
     }
