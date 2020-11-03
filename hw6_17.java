@@ -10,6 +10,7 @@ public class hw6_17 {
         }catch(InputMismatchException e){
             System.out.print("输入错误!n仅能为正整数！");//若输入不是整数，提示输入错误
         }
+        input.close();
     }
     public static void printMatrix(int n){
         //利用两个循环嵌套输出随机生成的0-1矩阵
