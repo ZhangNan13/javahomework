@@ -7,6 +7,7 @@ public class hw7_10 {
         for(int i = 0;i < 10;i++){
                 arr[i] = input.nextDouble();//读取输入的数
         }
+        input.close();
         System.out.println("数组为：");
         for (double e:arr) {
             System.out.print(e + " ");
