@@ -10,6 +10,7 @@ public class hw6_4 {
         }catch(InputMismatchException e){
             System.out.print("输入错误!请输入整数！");//若输入不是整数，提示输入错误
         }
+        input.close();
     }
     public static void reverse(int number) {
         //反向显示函数
